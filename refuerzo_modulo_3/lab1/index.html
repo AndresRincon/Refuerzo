@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html ng-app='lab1a'>
+<head>
+	<title>Refuerzo Uno</title>
+</head>
+<body ng-controller='lab1aController'>
+
+	<form>
+		<input type="text" ng-model="name" name="name">   
+	</form>
+	<span>  {{ name | uppercase }} </span><br>
+	<span>  {{ id }} </span><br>
+	<span>  {{ profession }} </span><br>
+	<span>  {{ salary | currency: "$ " }} </span><br>
+	<span>  {{ phone }} </span><br>
+	<span>  {{ address }} </span><br>
+
+<script type="text/javascript" src="js/angular.min.js"></script>
+<script type="text/javascript" src="js/lab1a.js"></script>
+</body>
+</html>
